@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eel example</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="/eel.js"></script> 
+</head>
+<body>
+    
+      <div id="large-header" class="large-header">
+        <canvas id="demo-canvas"></canvas>
+          <div class="temp">
+              
+          </div>
+       
+    <div class="center">
+        <div class="circle orange" id="mic" onclick="play()"><i class="fa fa-microphone" style="font-size:38px;color:white"></i></div>
+        <audio id="audio" src="./sounds/mic_on_effect.mp3"></audio>
+    </div>
+  
+  
+  <div class="container">
+    <div class="chat_box">
+        
+        <div class="body" id="body">
+         
+        </div>
+    </div>
+    </div>
+</div>
+  
+     
+</body>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/background.js"></script>
+
+</html>
