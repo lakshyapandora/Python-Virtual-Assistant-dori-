@@ -1,4 +1,4 @@
-# Python-Virtual-Assistant-dori-
+# Python-Virtual-Assistant-nifty-
 Virtual Assistant using python AI.
 
 How does speech recognition work!
